@@ -2,7 +2,7 @@
 data(iris)
 
 # 1. Teste de hipótese para o comprimento da sépala entre setosa e versicolor
-setosa_sep_len <- iris$Sepal.Length[iris$Species == 'setosa']
+setosa_sep_len <- iris$Sepal.Length[iris$Species == 'virginica']
 versicolor_sep_len <- iris$Sepal.Length[iris$Species == 'versicolor']
 
 # Realizando um teste t para amostras independentes
